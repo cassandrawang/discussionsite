@@ -1,8 +1,8 @@
 // dependencies
 var express = require('express'),
     path = require('path'),
-    mongoose = require('mongoose');
-
+    db = require('./model/db');
+    
 var app = express();
 
 // mongoose configuration
